@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <title>Desafio</title>
+  </head>
+  <body class="h-screen bg-blue-100 flex flex-col items-center justify-center">
+    <button id="openModal" class="bg-purple-500 rounded py-4 px-4 text-white">
+      Abrir Janela
+    </button>
+
+    <div
+      class="modal-wrapper invisible fixed w-screen h-screen flex items-center justify-center"
+    >
+      <div class="p-8 bg-white text-center rounded">Tecle ESC para fechar</div>
+    </div>
+
+    <script src="./desafio.js"></script>
+  </body>
+</html>
